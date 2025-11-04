@@ -1,65 +1,70 @@
-# Roya Ghavami Adel — Portfolio
+# Roozbeh Golchian Khabaz — Academic Portfolio
 
-Welcome to my personal portfolio website! This site showcases my background, skills, professional projects, university projects, and contact information. It highlights my preparation for pursuing a Master’s or PhD program in Software Engineering, Cybersecurity, or related fields.  
+Welcome to my personal academic portfolio website! This site showcases my education, research experience, projects, skills, and contact information. It highlights my preparation and work in Mechanical Engineering, Fuel Cell Systems, Control Algorithms, and Reinforcement Learning.
 
 ---
 
 ## About Me
 
-I am a Software Engineer with a Bachelor of Science degree in Computer Engineering from Sharif University of Technology. My experience spans software development, backend systems, application integration, and network security.
+I am a Mechanical Engineer with a Master’s degree from Tsinghua University (GPA: 3.52/4) and a Bachelor’s from Beihang University. My research focuses on control algorithm design, reinforcement learning optimization, and alternative vehicle propulsion systems, including fuel cell engines.
 
-I am passionate about designing scalable, secure, and high-performance software systems. I am seeking a Master's/PhD degree to deepen my knowledge, leverage international resources, and contribute to solving complex software engineering challenges.
+I am passionate about combining dynamic modeling, control theory, and machine learning to improve energy efficiency and vehicle performance.
 
 ---
 
-## Portfolio
+## Research & Projects
 
-### Professional Projects
+### Research
 
-**TapsiFood — Vendor Panel**  
-A full-featured order management platform for food vendors.  
-- Built scalable UI with Vue 3 and Vue Query.  
-- Integrated with backend services using NestJS, RabbitMQ, gRPC, and Redis.  
-- Optimized SSG, SSR, and CSR rendering for performance.  
+- **Reinforcement Learning Based Control of Air Supply System in Proton Exchange Membrane Fuel Cell**  
+  *International Conference on Advanced Vehicle Powertrains (ICAVP), 2025 (Accepted)*
 
-**Jabama — Backoffice System**  
-Internal platform to manage accommodations and hosts.  
-- Developed core modules for contract management, reservations, and user dashboards.  
-- Built real-time chat system for customer support.  
-- Technologies: Vue.js, TypeScript, Tailwind CSS, REST APIs.  
+- **Dynamic Simulation of a Fuel Cell Bus: Investigating Inner States of Water Content**  
+  *7th CAA International Conference on Vehicular Control and Intelligence (CVCI), 2023*  
+  [DOI link](http://dx.doi.org/10.1109CVCI59596.2023.10397441)
 
-### University Projects
+- **Proton Exchange Membrane Fuel Cell Air Supply Control Using a Standalone Deep Deterministic Policy Gradient Control Structure** *(In Preparation)*
 
-**Articles Search Engine** — [GitHub](https://github.com/royaghavami/articles-search-engine)  
-- Designed a search engine using Elasticsearch, Boolean retrieval, and TF-IDF scoring.  
-- Integrated semantic search with Transformer models (BERT) and embeddings.  
-- Implemented fuzziness, logical filters, and clustering with cosine similarity.  
+### Projects
 
-**CBDC Wallet** — [GitHub](https://github.com/royaghavami/opencbdc-ui)  
-- Built a secure digital wallet interface for Central Bank Digital Currency systems.  
-- Implemented token minting, key generation, authorization, and passphrase recovery.  
-- Proposed secure and scalable improvements for digital currency.  
+- **Grey Wolf Optimizer + Nonlinear Conjugate Gradient Descent** — [GitHub](https://github.com/RoozbehGK/2D-GD-and-CG-code.git)  
+  Combined Grey Wolf optimization with Conjugate Gradient Descent to find global minima for predefined inputs.
 
-**C-Minus Compiler** — [GitHub](https://github.com/royaghavami/C-minus-Compiler)  
-- Implemented a compiler for the C-Minus programming language in Python.  
-- Translated C- code into executable machine code as a learning tool.  
+- **MPC in MATLAB for Safe Vehicle Following** — [GitHub](https://github.com/RoozbehGK/Using-MPC-to-Maintain-a-Safe-Distance-between-a-Proceeding-and-a-Following-Vehicle-.git)  
+  Developed state-space vehicle model, applied Kalman filter linearization, and implemented MPC in MATLAB/Simulink.
+
+- **Carbon Fiber Composite Monocoque Chassis Design**  
+  Calculated strength matrices of commercial laminates using MATLAB and designed layered composite structures.
+
+- **Stamping Die Design in SOLIDWORKS**  
+  Modeled and assembled all components of a cold stamping die in SOLIDWORKS.
+
+- **Alibaba Global Business Challenge**  
+  Proposed solutions for e-commerce responsiveness in the Japanese market; awarded second place.
 
 ---
 
 ## Skills
 
-- **Frontend:** Vue.js, React, TypeScript, Tailwind CSS  
-- **Backend:** Node.js, NestJS, REST APIs, RabbitMQ, gRPC, Redis  
-- **Tools & DevOps:** Docker, Docker Compose  
-- **Programming & Algorithms:** Data Structures, Distributed Systems, Security  
+- **Programming & Modeling:** MATLAB, C, C++  
+- **Software:** MATLAB/Simulink, SOLIDWORKS, CATIA, Arduino IDE  
+- **Research & Engineering:** Control Algorithms, Reinforcement Learning, Fuel Cell Systems, Automotive Engineering
+
+---
+
+## Language Proficiency
+
+- **Persian:** Native  
+- **English:** Fluent (IELTS 8.0)  
+- **Chinese:** Fluent (HSK 4)
 
 ---
 
 ## Contact
 
-- **Email:** [royaghavamiadel@gmail.com](mailto:royaghavamiadel@gmail.com)  
-- **Phone:** +98 936 017 6192  
-- **LinkedIn:** [linkedin.com/in/royaghavamiadel](https://www.linkedin.com/in/roya-ghavami-adel)  
+- **Email:** [rw21@tsinghua.org.cn](mailto:rw21@tsinghua.org.cn)  
+- **LinkedIn:** [linkedin.com/in/roozbeh-golchian](https://www.linkedin.com/in/roozbeh-golchian)  
+- **GitHub:** [github.com/RoozbehGK](https://github.com/RoozbehGK)
 
 ---
 
@@ -68,4 +73,4 @@ Internal platform to manage accommodations and hosts.
 1. Clone this repository:  
 
 ```bash
-git clone https://github.com/royaghavami/portfolio.git
+git clone https://github.com/RoozbehGK/portfolio.git
