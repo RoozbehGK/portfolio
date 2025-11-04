@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roozbeh Golchian Khabaz — CV</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/image.png" alt="Roozbeh Golchian Khabaz" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Roozbeh Golchian Khabaz">
+            Roozbeh<br>Golchian Khabaz
+          </h1>
+          <p class="title">
+            M.Sc. Mechanical Engineering _
+            <br />
+            Researcher
+          </p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:rw21@tsinghua.edu.cn" class="contact-link">rw21@tsinghua.edu.cn</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/roozbeh-golchian" class="contact-link"
+                target="_blank">linkedin.com/in/roozbeh-golchian</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+              <a href="https://github.com/RoozbehGK" class="contact-link" target="_blank">github.com/RoozbehGK</a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <!-- <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li> -->
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I hold an M.Sc. in Mechanical Engineering from <strong>Tsinghua University</strong> (2021–2025) with a focus
+            on fuel cell systems and control algorithms. My background includes dynamic modeling, control design, and
+            reinforcement learning for physical systems. I have additional training in mechatronics from Beihang
+            University (B.Eng.).
+          </p>
+
+          <p>
+            My research centers on modeling and control of power-generating systems, with an emphasis on fuel cell
+            engines and reinforcement-learning-based controllers. I enjoy combining classical control, numerical
+            simulation, and data-driven optimization to solve complex engineering problems.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="research icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research & Modeling</h4>
+                <p class="service-item-text">
+                  Dynamic simulation and control of fuel cell systems; modeling inner states and transport phenomena.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="algorithm icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Control Algorithms</h4>
+                <p class="service-item-text">
+                  Designing MPC, RL-based controllers and numerical approaches for real-time control problems.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="tools icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Simulation & Tools</h4>
+                <p class="service-item-text">
+                  MATLAB/Simulink development, optimization algorithms, and multi-domain simulation workflows.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- EDUCATION -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Tsinghua University</h4>
+              <span>2021 — 2025</span>
+              <p class="timeline-text">
+                M.Sc. Mechanical Engineering (Focus: Fuel Cell Systems and Control Algorithms) — GPA: 3.52/4.0
+              </p>
+              <ul class="timeline-sublist">
+                <li>
+                  <strong>Thesis:</strong> Reinforcement Learning Based Control of Air Supply System in A Proton
+                  Exchange Membrane Fuel Cell
+                </li>
+              </ul>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Beihang University</h4>
+              <span>2016 — 2020</span>
+              <p class="timeline-text">
+                B.Eng. Mechanical Engineering (Focus: Mechatronics) — GPA: 3.00/4.0
+              </p>
+              <ul class="timeline-sublist">
+                <li><strong>Thesis:</strong> Controlling an Arduino Based Robot Using an EEG Control Pipeline</li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+
+        <!-- RESEARCH -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="flask-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Research</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Reinforcement Learning Based Control of Air Supply System in Proton Exchange Membrane Fuel Cell
+              </h4>
+              <span>ICAVP — 2025 (Accepted)</span>
+              <p class="timeline-text">
+                Authors: Roozbeh Golchian Khabaz, Ursus Schorling, Liangfei Xu, Zunyan Hu, Chuan Fang, Guoqiang Zhang,
+                Jiangqiu Li, Minggao Ouyang.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Dynamic Simulation of a Fuel Cell Bus: Investigating Inner States of Water Content and Saturation
+              </h4>
+              <span>CVCI — 2023</span>
+              <p class="timeline-text">
+                Ursus Schorling, Roozbeh Golchian Khabaz, Li Jianqiu, Liangfei Xu. Conference: 7th CAA International
+                Conference on Vehicular Control and Intelligence (CVCI), 2023.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Proton Exchange Membrane Fuel Cell Air Supply Control Using a Standalone Deep Deterministic Policy
+                Gradient Control Structure
+              </h4>
+              <span>Manuscript — In preparation</span>
+              <p class="timeline-text">Work in progress — RL-based continuous control for PEM fuel cell air supply.</p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- TEACHING / WORK EXPERIENCE -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Teaching & Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Teaching Assistant — English Conversational Skills</h4>
+              <span>Fall 2024</span>
+              <p class="timeline-text">Supervisor: WANG Haitao — Tsinghua University. Organized scenarios and activities
+                to develop practical conversational English skills.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">English Tutor (Self-employed)</h4>
+              <span>2016 — 2024</span>
+              <p class="timeline-text">One-on-one tutoring and material preparation for young adults in Beijing.</p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="apps-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Grey Wolf Optimizer + Nonlinear Conjugate Gradient Descent</h4>
+              <p class="timeline-text">
+                Combined Grey Wolf optimization with Conjugate Gradient Descent to find global minima given predefined
+                inputs.
+                <!-- <a href="https://github.com/RoozbehGK/2D-GD-and-CG-code.git" target="_blank">GitHub</a> -->
+                    <a href="https://github.com/RoozbehGK/2D-GD-and-CG-code.git" target="_blank" class="github-link">
+                      <i class="fa-brands fa-github"></i> 
+                    </a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">MPC in MATLAB for Safe Vehicle Following</h4>
+              <p class="timeline-text">
+                State-space longitudinal model, Kalman filter linearization at each horizon step, and MPC implementation
+                in MATLAB/Simulink.
+                <!-- <a href="https://github.com/RoozbehGK/Using-MPC-to-Maintain-a-Safe-Distance-between-a-Proceeding-and-a-Following-Vehicle-.git"
+                  target="_blank">GitHub</a> -->
+                      <a href="https://github.com/RoozbehGK/Using-MPC-to-Maintain-a-Safe-Distance-between-a-Proceeding-and-a-Following-Vehicle-.git"
+                        target="_blank" class="github-link">
+                        <i class="fa-brands fa-github"></i> 
+                      </a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Carbon Fiber Composite Monocoque Chassis Design</h4>
+              <p class="timeline-text">Laminate selection, stacking analysis and strength computation using MATLAB.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Stamping Die Design (SOLIDWORKS)</h4>
+              <p class="timeline-text">Complete die assembly design in SOLIDWORKS: top/bottom die components and
+                integration.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Alibaba Global Business Challenge</h4>
+              <p class="timeline-text">Research & solution for Japanese e-commerce responsiveness — awarded second
+                place.</p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skill">
+          <h3 class="h3 skills-title">Skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming: MATLAB, C, C++</h5>
+                <data value="85">Advanced</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Simulation & Control (MATLAB/Simulink)</h5>
+                <data value="85">Advanced</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Optimization & RL</h5>
+                <data value="80">Strong</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CAD & Mechanical Design (SolidWorks, CATIA)</h5>
+                <data value="75">Proficient</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- LANGUAGES -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="language-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Language Proficiency</h3>
+          </div>
+
+          <ul class="timeline-list">
+            <li class="timeline-item"><strong>Persian:</strong> Native</li>
+            <li class="timeline-item"><strong>English:</strong> Fluent (IELTS 8.0)</li>
+            <li class="timeline-item"><strong>Chinese:</strong> Fluent (HSK 4)</li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="portfolio-project">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="apps-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Selected Repositories & Work</h3>
+          </div>
+
+          <p class="project-description">
+            Links to code and simulation projects (MATLAB, optimization, control, mechanical designs).
+          </p>
+
+          <div class="carousel" data-carousel>
+            <div class="carousel-track">
+              <div class="carousel-slide"><img src="./assets/images/ta1.png" alt="project 1"></div>
+              <div class="carousel-slide"><img src="./assets/images/ta2.png" alt="project 2"></div>
+              <div class="carousel-slide"><img src="./assets/images/ta3.png" alt="project 3"></div>
+            </div>
+            <button class="carousel-btn prev">&#10094;</button>
+            <button class="carousel-btn next">&#10095;</button>
+          </div>
+        </section>
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-info">
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info-text">
+                <p class="contact-title">Email</p>
+                <a href="mailto:rw21@tsinghua.edu.cn" class="contact-link">rw21@tsinghua.edu.cn</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+              <div class="contact-info-text">
+                <p class="contact-title">LinkedIn</p>
+                <a href="https://www.linkedin.com/in/roozbeh-golchian" class="contact-link"
+                  target="_blank">linkedin.com/in/roozbeh-golchian</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+              <div class="contact-info-text">
+                <p class="contact-title">GitHub</p>
+                <a href="https://github.com/RoozbehGK" class="contact-link" target="_blank">github.com/RoozbehGK</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
